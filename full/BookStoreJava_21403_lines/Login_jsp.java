@@ -46,7 +46,7 @@ public class Login_jsp extends HttpJspBase {
   }
 
   java.sql.ResultSet openrs(java.sql.Statement stat, String sql) throws java.sql.SQLException {
-    java.sql.ResultSet rs = stat.executeQuery(sql);
+    //java.sql.ResultSet rs = stat.executeQuery(sql);
     return (rs);
   }
 
