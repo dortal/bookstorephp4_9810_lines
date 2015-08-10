@@ -3,16 +3,16 @@ public class AdminBooks_jsp extends HttpJspBase {
 
 //
 //tal 2 22   
-//
-//   Filename: Common.jsp 
+//dsadaa
+//   Filename: Common.jsp sddsfdsf
 //   Generated with CodeCharge  v.1.2.0
 //   JSP.ccp build 05/21/2001
-//  
+//      
 
   static final String CRLF = "\r\n";
 
   static final int UNDEFINT=Integer.MIN_VALUE;
-
+   
   static final int adText = 1;
   static final int adDate = 2;
   static final int adNumber = 3;
