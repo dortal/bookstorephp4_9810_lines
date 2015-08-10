@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<services-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <runtime timeOut="75000" connectionTimeOut="500"  maxConnection="30" maxConnectionPerHost="30" >
+    <mode>@RECH_HOTEL_TARGET</mode>
+<!--
+		<wsLocation>
+			<commonWs>http://57.200.1.49:8080/WebServices/services/Common</commonWs>
+			<geosearchWs>http://57.200.1.49:8080/WebServices/services/GeoSearch</geosearchWs>
+			<availabilitysearchWs>http://57.200.1.49:8080/WebServices/services/AvailabilitySearch</availabilitysearchWs>
+			<descriptivecontentWs>http://57.200.1.49:8080/WebServices/services/DescriptiveContent</descriptivecontentWs>
+			<basictypesWs>http://57.200.1.49:8080/WebServices/services/BasicTypes</basictypesWs>
+			<basictypesevaluatorWs>http://57.200.1.49:8080/WebServices/services/BasicTypesEvaluator</basictypesevaluatorWs>
+		</wsLocation>
+-->
+    <httpVersion>1.1</httpVersion>
+  </runtime>
+  <origin>
+    <cro>FDV</cro>
+    <subcro>FDV</subcro>
+  </origin>
+  <application>
+    <code>ASA</code>
+    <defaultlocale>gb</defaultlocale>
+  </application>
+</services-config>

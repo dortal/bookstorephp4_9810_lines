@@ -1,0 +1,172 @@
+/**************************************/
+/*               COMMUN               */
+/**************************************/
+
+body, input, select, table, textarea { font-family: Arial, Tahoma, Verdana, Geneva, Helvetica, Sans-Serif; font-size: 10px; }
+body { background-color: CadetBlue; height: 100%; text-align: center; }
+div { margin: auto; }
+fieldset { border: 1px solid LightGrey; margin: 3px auto; }
+form { border-width: 0px; margin: 0px; padding: 0px; }
+img { border: 0px; }
+input { border-width: 1px; }
+legend { color: Black; font-weight: bold; }
+table { margin: auto; text-align: left; }
+textarea { border-width: 1px; overflow: auto; }
+
+/**************************************/
+/*              DIV HEAD              */
+/**************************************/
+
+#headDiv { background-color: Transparent; padding: 0px 2px; text-align: left; width: 95%; }
+
+/**************************************/
+/*             DIV CONTENU            */
+/**************************************/
+
+#mainDiv { /*background-color: White;*/ border: 1px GoldenRod ridge; width: 95%; }
+
+/**************************************/
+/*                HEAD                */
+/**************************************/
+#head { background-color: White; border: 1px GoldenRod ridge; }
+#head a { color: Black; font-size: 11px; text-decoration: none; }
+#head a:hover { font-weight: bold; }
+#head table { font-family: Tahoma; text-align: center; width: 100%; }
+
+/**************************************/
+/*               LANGUES              */
+/**************************************/
+#languages { float: right; }
+
+/**************************************/
+/*                MENU                */
+/**************************************/
+
+#menu { position: absolute; margin-top: 2px; }
+#menu a { display: block; text-decoration: none; }
+#menu a:hover { border-style: none solid; border-width: 5px; text-decoration: underline; }
+#menu div { display: inline; float: left; height: 18px; margin-right: 2px; width: 115px; }
+#menu table { border-collapse: collapse; font-family: Tahoma; font-size: 11px; height: 95%; margin: 0px; padding: 0px; text-align: center; width: 100%; }
+#menu th.CurrentMenu { background-color: White; border: 1px White solid; border-bottom-color: White; text-decoration: underline; }
+
+/**************************************/
+/*                LOGIN               */
+/**************************************/
+#loginDiv a { color: Olive; }
+#loginDiv fieldset { border: 1px solid Olive; width: 300px; }
+#loginDiv input.Button { background: url("../images/button0.gif") repeat center; border: 1px solid Black; width: 120px; }
+#loginDiv td { padding: 5px; }
+
+/**************************************/
+/*               ERREURS              */
+/**************************************/
+
+.ErrorTitle { color: DarkRed; font-size: 16px; font-weight: bold; padding: 16px; }
+.InfoMessage { color: FireBrick; }
+#errorDiv, .errorMessage { color: FireBrick; font-weight: bold; text-align: left; width: 100%; }
+
+/**************************************/
+/*          STYLE IMPRESSION          */
+/**************************************/
+
+body.Imprimable { background: none White; text-align: left; }
+body.Imprimable .ImprimTitle { background-color: LightGrey; border: 1px solid Black; color: Black; font-size: 16px; font-weight: bold; text-align: center; }
+body.Imprimable table.ImprimList { border: 2px solid Black; border-collapse: collapse; text-align: center; }
+body.Imprimable table.ImprimList th { background-color: LightGrey; border: 1px solid Black; }
+body.Imprimable table.ImprimList td { border: 1px solid Black; }
+
+/**************************************/
+/*               DIVERS               */
+/**************************************/
+
+.AsaTitle { color: DarkSlateGray; font-size: 14px; font-variant: small-caps; font-weight: bold; }
+.ScreenTitle { color: DarkSlateGray; font-size: 11px; font-variant: small-caps; font-weight: bold; }
+.Button { cursor: pointer; font-family: Verdana; font-size: 11px; height: 20px; overflow: visible; width: 100px; }
+div.CadreBlanc { background-color: White; border: 1px solid Black; padding: 5px; height: 100%; width: 100%; }
+div.CadreBlanc a { color: Olive; }
+table.List { background-color: White; border-collapse: collapse; text-align: center; }
+table.List th { border-bottom: 1px solid Black; border-top: 1px solid Black; font-size: 11px; font-weight: normal; }
+table.List td, table.List td { border-bottom: 1px solid LightGrey; border-top: 1px solid LightGrey; }
+
+/**************************************/
+/*            STYLES MENUS            */
+/**************************************/
+
+/*** STYLE PAR DEFAUT ***/
+div.DefaultStyle { background-color: White }
+div.DefaultStyle a { color: Olive }
+
+/*** STYLE 0 ***/
+div.Menu0 th { background-color: MediumAquaMarine; border: 1px MediumAquaMarine solid; color: DarkSlateGray; }
+div.Menu0 td, div.Menu0 a { background-color: MediumAquaMarine; color: DarkSlateGray; }
+.Style0 { background-color: MintCream; }
+#mainDiv.Style0 .Button { background: url("../images/button0.gif") repeat-x center; border: 1px solid Black; }
+#mainDiv.Style0 .Highlight1 { background-color: MediumAquaMarine; color: Black; }
+#mainDiv.Style0 .HighlightRow { background-color: MediumAquaMarine; color: DarkSlateGray; font-style: italic; }
+#mainDiv.Style0 table.List a { color: DarkOliveGreen; font-family: Tahoma; }
+#mainDiv.Style0 table.List th { background-color: MediumAquaMarine; color: Black; }
+#mainDiv.Style0 table.List tr.Even { background-color: White; color: Black; }
+#mainDiv.Style0 table.List tr.Odd { background-color: MintCream; color: Black; }
+
+/*** STYLE 1 ***/
+div.Menu1 th { background-color: LightGreen; border: 1px LightGreen solid; color: DarkGreen; }
+div.Menu1 td, div.Menu1 a { background-color: LightGreen; color: DarkGreen; }
+.Style1 { background-color: HoneyDew; }
+#mainDiv.Style1 .Button { background: url("../images/button1.gif") repeat-x center; border: 1px solid Black; }
+#mainDiv.Style1 .Highlight1 { background-color: LightGreen; color: Black; }
+#mainDiv.Style1 .HighlightRow { background-color: LightGreen; color: DarkGreen; font-style: italic; }
+#mainDiv.Style1 table.List a { color: DarkOliveGreen; font-family: Tahoma; }
+#mainDiv.Style1 table.List th { background-color: LightGreen; color: Black; }
+#mainDiv.Style1 table.List tr.Even { background-color: White; color: Black; }
+#mainDiv.Style1 table.List tr.Odd { background-color: HoneyDew; color: Black; }
+
+/*** STYLE 2 ***/
+div.Menu2 th { background-color: DarkSeaGreen; border: 1px DarkSeaGreen solid; color: DarkSlateGray; }
+div.Menu2 td, div.Menu2 a { background-color: DarkSeaGreen; color: DarkSlateGray; }
+.Style2 { background-color: HoneyDew; }
+#mainDiv.Style2 .Button { background: url("../images/button2.gif") repeat-x center; border: 1px solid Black; }
+#mainDiv.Style2 .Highlight1 { background-color: DarkSeaGreen; color: Black; }
+#mainDiv.Style2 table.List th { background-color: DarkSeaGreen; color: Black; }
+#mainDiv.Style2 table.List tr.Even { background-color: White; color: Black; }
+#mainDiv.Style2 table.List tr.Odd { background-color: HoneyDew; color: Black; }
+
+/*** STYLE 3 ***/
+div.Menu3 th { background-color: DarkKhaki; border: 1px DarkKhaki solid; color: DarkOliveGreen; }
+div.Menu3 td, div.Menu3 a { background-color: DarkKhaki; color: DarkOliveGreen; }
+.Style3 { background-color: LightGoldenRodYellow; }
+#mainDiv.Style3 .Button { background: url("../images/button3.gif") repeat-x center; border: 1px solid Black; }
+#mainDiv.Style3 .Highlight1 { background-color: DarkKhaki; color: Black; }
+#mainDiv.Style3 table.List th { background-color: DarkKhaki; color: Black; }
+#mainDiv.Style3 table.List tr.Even { background-color: White; color: Black; }
+#mainDiv.Style3 table.List tr.Odd { background-color: LightGoldenRodYellow; color: Black; }
+
+/*** STYLE 4 ***/
+div.Menu4 th { background-color: PaleGoldenRod; border: 1px PaleGoldenRod solid; color: Sienna; }
+div.Menu4 td, div.Menu4 a { background-color: PaleGoldenRod; color: Sienna; }
+.Style4 { background-color: LightYellow; }
+#mainDiv.Style4 .Button { background: url("../images/button4.gif") repeat-x center; border: 1px solid Black; }
+#mainDiv.Style4 table.List a { color: Sienna; text-decoration: none; }
+#mainDiv.Style4 table.List a:hover { text-decoration: underline; }
+#mainDiv.Style4 table.List th { background-color: PaleGoldenRod; color: Black; }
+#mainDiv.Style4 table.List tr.Even { background-color: White; color: Black; }
+#mainDiv.Style4 table.List tr.Odd { background-color: LightYellow; color: Black; }
+
+/*** STYLE 5 ***/
+div.Menu5 th { background-color: Khaki; border: 1px Khaki solid; color: SaddleBrown; }
+div.Menu5 td, div.Menu5 a { background-color: Khaki; color: SaddleBrown; }
+.Style5 { background-color: Cornsilk; }
+#mainDiv.Style5 .Button { background: url("../images/button5.gif") repeat-x center; border: 1px solid Black; }
+#mainDiv.Style5 table.List a { color: SaddleBrown; text-decoration: none; }
+#mainDiv.Style5 table.List a:hover { text-decoration: underline; }
+#mainDiv.Style5 table.List th { background-color: Khaki; color: Black; }
+#mainDiv.Style5 table.List tr.Even { background-color: White; color: Black; }
+#mainDiv.Style5 table.List tr.Odd { background-color: Cornsilk; color: Black; }
+
+/*** STYLE 6 ***/
+div.Menu6 th { background-color: Khaki; border: 1px Khaki solid; color: FireBrick; }
+div.Menu6 td, div.Menu6 a { background-color: Khaki; color: FireBrick; }
+.Style6 { background-color: Cornsilk; }
+#mainDiv.Style6 .Button { background: url("../images/button5.gif") repeat-x center; border: 1px solid Black; }
+#mainDiv.Style6 table.List th { background-color: Khaki; color: Black; }
+#mainDiv.Style6 table.List tr.Even { background-color: White; color: Black; }
+#mainDiv.Style6 table.List tr.Odd { background-color: Cornsilk; color: Black; }

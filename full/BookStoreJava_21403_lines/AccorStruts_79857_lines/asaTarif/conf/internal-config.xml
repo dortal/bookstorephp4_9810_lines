@@ -1,0 +1,209 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+  <bean name="InternalConfig" class="com.accor.services.framework.commons.prefs.InternalConfig">
+    <property name="flags">
+      <props>
+        <prop key="pool">POOL</prop>
+        <prop key="restaurant">SERV</prop>
+        <prop key="seminary">SEMIN</prop>
+        <prop key="parking">PRKFAC</prop>
+        <prop key="nosmoking">NOSMOK</prop>
+        <prop key="wifi">WIFI2</prop>
+        <prop key="thalassa">THAL</prop>
+        <prop key="pets">IPET</prop>
+      </props>
+    </property>
+    <property name="internalConfigUrls">
+      <map>
+        <entry>
+          <key><value>PROD</value></key>
+          <ref bean="UrlsPROD" />
+        </entry>
+        <entry>
+          <key><value>SEC</value></key>
+          <ref bean="UrlsSEC" />
+        </entry>
+        <entry>
+          <key><value>REC</value></key>
+          <ref bean="UrlsREC" />
+        </entry>
+        <entry>
+          <key><value>FORM</value></key>
+          <ref bean="UrlsFORM" />
+        </entry>
+      </map>
+    </property>
+  </bean>
+  
+  <bean name="UrlsPROD" class="com.accor.services.framework.commons.prefs.InternalConfig">
+    <property name="key">
+      <value>PROD</value>
+    </property>
+    <property name="wsCommonUrl">
+      <value>http://57.200.214.97:8080/WebServices/services/Common</value>
+    </property>
+    <property name="wsGeoSearchUrl">
+      <value>http://57.200.214.97:8080/WebServices/services/GeoSearch</value>
+    </property>
+    <property name="wsAvailabilitySearchUrl">
+      <value>http://57.200.214.97:8080/WebServices/services/AvailabilitySearch</value>
+    </property>
+    <property name="wsAvailabilityDetailSearch">
+      <value>http://57.200.214.97:8080/WebServices/services/AvailabilityDetailSearch</value>
+    </property>
+    <property name="wsDescriptiveContentUrl">
+      <value>http://57.200.214.97:8080/WebServices/services/DescriptiveContent</value>
+    </property>
+    <property name="wsBasicTypesUrl">
+      <value>http://57.200.214.97:8080/WebServices/services/BasicTypes</value>
+    </property>
+    <property name="wsBasicTypesEvaluatorUrl">
+      <value>http://57.200.214.97:8080/WebServices/services/BasicTypesEvaluator</value>
+    </property>
+    <property name="wsBestAvailabilitySearch">
+      <value>http://57.200.214.97:8080/WebServices/services/BestAvailableRateSearch</value>      
+    </property>
+    <property name="wsCCPaymentUrl">
+      <value>http://57.200.214.97:8088/WebServices/services/CCPayment</value>      
+    </property>
+    <property name="wsReservationServiceUrl">
+      <value>http://57.200.214.97:8080/WebServices/xFireServices/ReservationService</value>      
+    </property>  
+    <property name="wsCommonServicesUrl">
+      <value>http://57.200.214.97:8080/WebServices/xFireServices/CommonServices</value>      
+    </property>        
+    <property name="wsComparaisonServicesUrl">
+      <value>http://57.200.214.97:8080/WebServices/xFireServices/ComparaisonService</value>      
+    </property>    
+    
+  </bean>
+  
+  <bean name="UrlsSEC" class="com.accor.services.framework.commons.prefs.InternalConfig">
+    <property name="key">
+      <value>SEC</value>
+    </property>
+    <property name="wsCommonUrl">
+      <value>http://57.200.2.209:8080/WebServices/services/Common</value>
+    </property>
+    <property name="wsGeoSearchUrl">
+      <value>http://57.200.2.209:8080/WebServices/services/GeoSearch</value>
+    </property>
+    <property name="wsAvailabilitySearchUrl">
+      <value>http://57.200.2.209:8080/WebServices/services/AvailabilitySearch</value>
+    </property>
+    <property name="wsAvailabilityDetailSearch">
+      <value>http://57.200.2.209:8080/WebServices/services/AvailabilityDetailSearch</value>
+    </property>
+    <property name="wsDescriptiveContentUrl">
+      <value>http://57.200.2.209:8080/WebServices/services/DescriptiveContent</value>
+    </property>
+    <property name="wsBasicTypesUrl">
+      <value>http://57.200.2.209:8080/WebServices/services/BasicTypes</value>
+    </property>
+    <property name="wsBasicTypesEvaluatorUrl">
+      <value>http://57.200.2.209:8080/WebServices/services/BasicTypesEvaluator</value>
+    </property>
+    <property name="wsBestAvailabilitySearch">
+      <value>http://57.200.2.209:8080/WebServices/services/BestAvailableRateSearch</value>      
+    </property>
+    <property name="wsCCPaymentUrl">
+      <value>http://57.200.2.209:8088/WebServices/services/CCPayment</value>      
+    </property>
+    <property name="wsReservationServiceUrl">
+      <value>http://57.200.2.209:8080/WebServices/xFireServices/ReservationService</value>      
+    </property>  
+    <property name="wsCommonServicesUrl">
+      <value>http://57.200.2.209:8080/WebServices/xFireServices/CommonServices</value>      
+    </property>        
+    <property name="wsComparaisonServicesUrl">
+      <value>http://57.200.2.209:8080/WebServices/xFireServices/ComparaisonService</value>      
+    </property>    
+    
+  </bean>
+  
+  <bean name="UrlsREC" class="com.accor.services.framework.commons.prefs.InternalConfig">
+    <property name="key">
+      <value>REC</value>
+    </property>
+    <property name="wsCommonUrl">
+      <value>http://57.200.214.152:8080/WebServices/services/Common</value>
+    </property>
+    <property name="wsGeoSearchUrl">
+      <value>http://57.200.214.152:8080/WebServices/services/GeoSearch</value>
+    </property>
+    <property name="wsAvailabilitySearchUrl">
+      <value>http://57.200.214.152:8080/WebServices/services/AvailabilitySearch</value>
+    </property>
+    <property name="wsAvailabilityDetailSearch">
+      <value>http://57.200.214.152:8080/WebServices/services/AvailabilityDetailSearch</value>
+    </property>
+    <property name="wsDescriptiveContentUrl">
+      <value>http://57.200.214.152:8080/WebServices/services/DescriptiveContent</value>
+    </property>
+    <property name="wsBasicTypesUrl">
+      <value>http://57.200.214.152:8080/WebServices/services/BasicTypes</value>
+    </property>
+    <property name="wsBasicTypesEvaluatorUrl">
+      <value>http://57.200.214.152:8080/WebServices/services/BasicTypesEvaluator</value>
+    </property>
+    <property name="wsBestAvailabilitySearch">
+      <value>http://57.200.214.152:8080/WebServices/services/BestAvailableRateSearch</value>      
+    </property>
+    <property name="wsCCPaymentUrl">
+      <value>http://57.200.214.152:8080/WebServices/services/CCPayment</value>      
+    </property> 
+    <property name="wsReservationServiceUrl">
+      <value>http://57.200.214.152:8080/WebServices/xFireServices/ReservationService</value>      
+    </property>      
+    <property name="wsCommonServicesUrl">
+      <value>http://57.200.214.152:8080/WebServices/xFireServices/CommonServices</value>      
+    </property>       
+    <property name="wsComparaisonServicesUrl">
+      <value>http://57.200.214.152:8080/WebServices/xFireServices/ComparaisonService</value>      
+    </property>    
+  </bean> 
+  
+  <bean name="UrlsFORM" class="com.accor.services.framework.commons.prefs.InternalConfig">
+    <property name="key">
+      <value>FORM</value>
+    </property>
+    <property name="wsCommonUrl">
+      <value>http://57.200.1.73:8080/WebServices/services/Common</value>
+    </property>
+    <property name="wsGeoSearchUrl">
+      <value>http://57.200.1.73:8080/WebServices/services/GeoSearch</value>
+    </property>
+    <property name="wsAvailabilitySearchUrl">
+      <value>http://57.200.1.73:8080/WebServices/services/AvailabilitySearch</value>
+    </property>
+    <property name="wsAvailabilityDetailSearch">
+      <value>http://57.200.1.73:8080/WebServices/services/AvailabilityDetailSearch</value>
+    </property>
+    <property name="wsDescriptiveContentUrl">
+      <value>http://57.200.1.73:8080/WebServices/services/DescriptiveContent</value>
+    </property>
+    <property name="wsBasicTypesUrl">
+      <value>http://57.200.1.73:8080/WebServices/services/BasicTypes</value>
+    </property>
+    <property name="wsBasicTypesEvaluatorUrl">
+      <value>http://57.200.1.73:8080/WebServices/services/BasicTypesEvaluator</value>
+    </property>
+    <property name="wsBestAvailabilitySearch">
+      <value>http://57.200.1.73:8080/WebServices/services/BestAvailableRateSearch</value>      
+    </property>
+    <property name="wsCCPaymentUrl">
+      <value>http://57.200.1.73:8080/WebServices/services/CCPayment</value>      
+    </property>
+    <property name="wsReservationServiceUrl">
+      <value>http://57.200.1.73:8080/WebServices/xFireServices/ReservationService</value>      
+    </property>    
+    <property name="wsCommonServicesUrl">
+      <value>http://57.200.1.73:8080/WebServices/xFireServices/CommonServices</value>      
+    </property>    
+    <property name="wsComparaisonServicesUrl">
+      <value>http://57.200.1.73:8080/WebServices/xFireServices/ComparaisonService</value>      
+    </property>            
+  </bean>   
+  
+</beans>
