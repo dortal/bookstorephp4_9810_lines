@@ -1,3 +1,4 @@
+//bfgf fdfdfd
 class CodeInjection
 {
         static void foo(CSharpCodeProvider provider, CompilerParameters compilerParams, TextBox tb)
