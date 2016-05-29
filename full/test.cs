@@ -4,6 +4,7 @@ public class CodeInjection
         {
                 CompilerResults results = provider.CompileAssemblyFromSource(compilerParams, tb.Text);
                 //print output
+                var a = provider.Class;
         }
 }
 
