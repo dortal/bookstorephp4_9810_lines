@@ -6,4 +6,4 @@ class CodeInjection
         }
 }
 ghjghjgh
-\\  cfftttt fvrerter222tefghfgxcvxvx
+\\  My ne w comments
