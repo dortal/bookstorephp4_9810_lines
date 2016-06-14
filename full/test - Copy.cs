@@ -4,6 +4,4 @@ class CodeInjection
         {
                 CompilerResults results = provider.CompileAssemblyFromSource(compilerParams, tb.Text);
         }
-}
-ghjghjghwwerw
-\\  My ne w commentsxxxfdgdgdwerwerw
+}wwewerwr
