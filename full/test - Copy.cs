@@ -6,4 +6,4 @@ class CodeInjection
         }
 }
 ghjghjgh
-\\  My ne w comments
+\\  My ne w commentsxxx
