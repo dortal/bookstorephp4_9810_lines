@@ -15,12 +15,4 @@ public class CodeInjection
 
 
 \\ sfsfdsgfgfdg dgdgffgdfgsdfsfd567567
-\\gfdgdfgfdcxcdfgdfgdfdf
-
-
-aaaa
-
-\\ ssss csdcsd d 4444 d    dfgdfg
-
-//lalalalwerwerwertertwerw
 
