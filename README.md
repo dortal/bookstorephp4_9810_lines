@@ -6,12 +6,4 @@ hai 12/07/17
 hai levi 12/07/17
 While running
 
-bfodijgfdopijgdf
-vd
-fdlkgnfmgbdgp
-vfdhgfhmjk
-yhfgfh
-hjgjhgj
-klkjl./lk
-kjlk;l;'
-,jhk.;/lk;"Ljkihj
+Hai 31.08.17
